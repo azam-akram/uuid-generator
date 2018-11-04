@@ -16,7 +16,7 @@ Go to http://localhost:8500 and see consul service is up and running.
 ```bash
 gradlew clean build
 ```
-The projects contains a **GeneratorApplication** application. Run this application it registers itself to consul service discovery server.
+The projects contains a **GeneratorApplication** application. Run this application, it registers itself to consul service discovery server.
 
 ### Application Consul configuration
 In order to make service discoverable in consul, I used spring cloud dependency and **@EnableDiscoveryClient**,
@@ -55,4 +55,8 @@ http://{host-ip}:8888/uuid-generator/v1/uuid
 Use docker-compose to build uuid-generator image
 ```bash
 docker-compose build
+```
+run uuid-generator in docker container
+```bash
+docker run -p 8888:8888 uuid-generator
 ```
