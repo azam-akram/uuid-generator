@@ -1,0 +1,8 @@
+version: '2.2'
+
+services:
+  uuid-generator:
+    image: uuid-generator
+    build:
+      context: ./
+      dockerfile: Dockerfile

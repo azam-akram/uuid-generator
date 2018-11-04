@@ -1,0 +1,13 @@
+application:
+  api:
+    version: v1
+  uuid:
+    prefix:
+      "prefix"
+    postfix:
+      "postfix"
+
+server:
+  port: 8888
+  servlet:
+    context-path: /uuid-generator/${application.api.version}
