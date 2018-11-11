@@ -1,11 +1,11 @@
-package test.tantalum.generator.uuid.test.service;
+package demo.discovery.service.generator.uuid.test.service;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.util.StringUtils;
-import test.tantalum.generator.uuid.service.UuidGeneratorService;
+import demo.discovery.service.generator.uuid.service.UuidGeneratorService;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

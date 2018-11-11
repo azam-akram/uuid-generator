@@ -1,4 +1,4 @@
-package test.tantalum.generator.uuid;
+package demo.discovery.service.generator.uuid;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
